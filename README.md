@@ -49,12 +49,12 @@ Foram identificados **29 pontos de atenção**, categorizados conforme abaixo:
   <br>
 
   ### Evidência 01 - Cabeçalho e Menu
-  ![Evidência 01](Ciclo1-1.png)
+  ![Evidência 01](ciclo1-1.png)
 
   ---
 
   ### Evidência 02 - Banner Principal
-  ![Evidência 02](ciclo1-2.png)
+  ![Evidência 02](Ciclo1-2.png)
 
   ---
 
