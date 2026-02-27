@@ -1,8 +1,8 @@
 Teste de Qualidade - Projeto Rubeus
 
 
-* Relatório de Inspeção de Qualidade (QA) - Faculdade Exemplo
-* Escopo dos Testes
+Relatório de Inspeção de Qualidade (QA) - Faculdade Exemplo
+Escopo dos Testes
 Os testes foram realizados nos seguintes ambientes:
 Landing Page Principal: https://qualidade.apprbs.com.br/site
 Página de Certificação: https://qualidade.apprbs.com.br/certificacao
@@ -31,8 +31,6 @@ Logotipo fora do centro vertical do menu.
 Rodapé com colunas e copyright totalmente desalinhados.
 Qualidade de Imagem: Banner principal com imagem borrada, distorcida (aspect ratio incorreto) e sem preenchimento automático de tela.
 Hierarquia Visual: Seção de depoimentos sem destaque; Redes sociais com tamanho desproporcional fora do rodapé.
-
-📸 Evidências
 
 🚀 Conclusão
 A aplicação apresenta uma estrutura base funcional, porém carece de polimento técnico na camada de front-end (CSS/Layout) e revisões de lógica no back-end para validação de dados. A correção dos itens de Prioridade Alta é recomendada antes da publicação em ambiente de produção para evitar a poluição do banco de dados com leads incompletos.
