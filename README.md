@@ -144,4 +144,130 @@ A aplicação apresenta uma estrutura base funcional, porém carece de polimento
 * **Prioridade:** Média
 * **Descrição:** Nenhum elemento interativo da página (botões, ícones de redes sociais ou links de menu) apresenta mudança de estado, como alteração de cor, brilho ou preenchimento, ao sofrer a interação do cursor (hover). Essa falta de resposta visual prejudica a navegabilidade, pois o usuário não recebe confirmação imediata de que o item é clicável antes de efetuar a ação.
 
+**Item 11 – Baixa qualidade (nitidez) em imagem de banner**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** A imagem principal do banner ("Graduação"), que apresenta a figura de uma mulher, exibe baixa resolução e parece borrada. Isso prejudica o apelo visual da página inicial, dando uma impressão de falta de cuidado com a qualidade gráfica. O ideal seria utilizar uma imagem de alta definição para esta posição de destaque.
+
+**Item 12 – Carrossel de banner sem navegação automática**
+* **Tipo:** Melhoria
+* **Classificação:** Usabilidade
+* **Prioridade:** Alta
+* **Descrição:** O banner principal não transiciona as cenas (slides) automaticamente. Como os banners de destaque costumam conter as informações mais importantes, não mover automaticamente obriga o usuário a descobrir e usar a navegação manual. Em testes com usuários, isso frequentemente resulta em baixa visualização dos banners secundários. O esperado é que os slides avancem após um intervalo fixo (ex: 5-7 segundos).
+
+**Item 13 – Setas de navegação do carrossel com visibilidade muito baixa**
+* **Tipo:** Correção
+* **Classificação:** Usabilidade
+* **Prioridade:** Alta
+* **Descrição:** As setas laterais para a navegação manual do carrossel são quase invisíveis. Elas são pequenas e não possuem um fundo com contraste suficiente em relação à imagem do banner, dificultando sua identificação por qualquer usuário, especialmente aqueles com baixa visão. Isso agrava o problema da falta de navegação automática. Recomenda-se aumentar o tamanho e, crucialmente, o contraste das setas para garantir sua visibilidade.
+
+**Item 14 – Falta de indicação visual de "Página Ativa"**
+* **Tipo:** Melhoria
+* **Classificação:** Usabilidade
+* **Prioridade:** Baixa
+* **Descrição:** No menu superior ou inferior, não há uma indicação visual (como um sublinhado ou cor diferente) que mostre em qual página o usuário está no momento. Isso pode deixar o usuário desorientado em navegações mais longas.
+
+**Item 15 – Ícones de Redes Sociais sem Identificação (Alt Text)**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade / Acessibilidade
+* **Prioridade:** Média
+* **Descrição:** Os ícones de redes sociais (LinkedIn, Facebook, etc.) dependem puramente da interpretação visual do usuário. Para acessibilidade (leitores de tela), cada ícone deve ter uma descrição clara. Além disso, esteticamente, eles parecem "flutuar" sem um rótulo que os conecte ao contexto de "Siga-nos" ou "Redes Sociais".
+
+**Item 16 – Proporção e Distorção de Elementos (Biblioteca)**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** O ícone e o texto de "BIBLIOTECA" parecem ter um peso visual muito maior do que os outros itens do menu escuro, possivelmente devido à fonte ou ao preenchimento do ícone de livro. Isso quebra o equilíbrio visual da barra de navegação.
+
+**Item 17 – Banners do Carrossel não são clicáveis**
+* **Tipo:** Melhoria
+* **Classificação:** Usabilidade
+* **Prioridade:** Média
+* **Descrição:** Os banners principais funcionam apenas como elementos visuais estáticos. Ao clicar na imagem do banner, nenhuma ação é executada. O esperado seria que o banner inteiro (ou um botão interno de "Saiba Mais") funcionasse como um link para a página de destino do conteúdo anunciado.
+
+**Item 18 – Desalinhamento vertical de texto (Datas do carrossel)**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** Os elementos de data no carrossel apresentam falha de alinhamento vertical. O número (ex: "05") está excessivamente deslocado para cima em relação ao mês (ex: "fevereiro"), quebrando a harmonia visual e dificultando a leitura rápida do conjunto da data.
+
+**Item 19 – Distorção de imagem no banner**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Média
+* **Descrição:** Além da baixa resolução já mencionada, a imagem da mulher no banner principal apresenta sinais de distorção (aspect ratio incorreto). A imagem parece "esticada" ou "achatada", o que compromete o profissionalismo da interface visual.
+
+**Item 20 – Posicionamento inadequado das setas de navegação**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** As setas de navegação lateral do carrossel estão posicionadas muito distantes do conteúdo central ou das bordas lógicas do banner. Esse distanciamento excessivo dificulta a percepção do usuário de que as setas pertencem ao controle daquele elemento específico.
+
+**Item 21 – Desalinhamento de conteúdo na seção Newsletter**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** O título "NÃO FIQUE DE FORA!" e o texto de apoio (Lorem Ipsum) não estão alinhados corretamente em relação ao formulário ao lado. A falta de um eixo central ou uma distribuição simétrica entre o texto e os campos de entrada prejudica a estética visual da seção.
+
+**Item 22 – Falta de espaçamento (Respiro) entre elementos do formulário**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Média
+* **Descrição:** O botão "CONCLUIR" está visualmente "colado" ao campo de telefone, sem a margem necessária para separá-los. Essa ausência de espaçamento (padding/margin) torna a interface densa e dificulta a distinção clara entre os campos de preenchimento e a ação final de envio.
+
+**Item 23 – Baixo contraste no texto do botão "CONCLUIR"**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Alta
+* **Descrição:** O texto "CONCLUIR" apresenta baixa legibilidade devido ao pouco contraste entre a cor da fonte e o fundo do botão. Isso fere princípios de acessibilidade, tornando o botão de ação principal difícil de ler para o usuário.
+
+**Item 24 – Erro na lógica de persistência de validação (Campos Nome e Email)**
+* **Tipo:** Correção
+* **Classificação:** Utilidade
+* **Prioridade:** Alta
+* **Descrição:** Ao interagir com os campos "Nome" e "Email", inserir informações e depois apagá-las, o sistema exibe e mantém a mensagem de erro em vermelho ("preencha esses campos") de forma persistente. O esperado seria que a mensagem de erro fosse limpa ou reavaliada conforme a interação do usuário.
+
+**Item 25 – Falha na validação de campos obrigatórios (Botão Concluir)**
+* **Tipo:** Correção
+* **Classificação:** Utilidade
+* **Prioridade:** Alta
+* **Descrição:** O formulário permite o envio dos dados através do botão "CONCLUIR" mesmo sem o preenchimento do campo de número de telefone. O esperado seria que o sistema bloqueasse a ação e exibisse uma mensagem de erro até que todos os campos necessários fossem preenchidos.
+
+**Item 26 – Arquitetura de informação inadequada (Redes Sociais)**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Média
+* **Descrição:** Os ícones de redes sociais apresentam um tamanho desproporcional e ocupam um espaço nobre no corpo da página. O padrão esperado é que esses elementos fiquem localizados de forma discreta no rodapé (footer).
+
+**Item 27 – Falta de hierarquia visual na seção de Depoimentos**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Média
+* **Descrição:** A seção "O QUE NOSSOS ALUNOS DIZEM?" carece de destaque visual. O título e os cards de depoimento fundem-se ao fundo branco da página, sem sombras ou bordas que os delimitem.
+
+**Item 28 – Desalinhamento generalizado no Rodapé (Footer)**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** As colunas de informações ("Endereço", "Contatos" e "UNIEXEMPLO Social") apresentam desalinhamento vertical e horizontal entre si. O texto de copyright na base também não está centralizado.
+
+**Item 29 – Ausência de ícones representativos em "Social"**
+* **Tipo:** Melhoria
+* **Classificação:** Desejabilidade
+* **Prioridade:** Baixa
+* **Descrição:** Na seção do rodapé intitulada "UNIEXEMPLO Social", os links são apresentados apenas como texto. O padrão de usabilidade dita o uso de ícones oficiais (LinkedIn, Facebook, Instagram) para identificação imediata.
+
+**Item 30 – Problemas de Design no Balão de Matrícula**
+* **Tipo:** Melhoria
+* **Prioridade:** Baixa
+* **Descrição:** O texto "MATRÍCULAS ABERTAS" está descentralizado verticalmente (muito próximo da borda inferior) e o balão está desalinhado em relação ao topo do formulário. Há baixo contraste entre o fundo amarelo e a fonte branca.
+
+---
+
+## 🔬 Ciclo de Teste 02 - Página de Certificação
+**Ambiente de Teste (URL):** https://qualidade.apprbs.com.br/certificacao
+
+
+
 
