@@ -54,7 +54,7 @@ Foram identificados **29 pontos de atenção**, categorizados conforme abaixo:
   ---
 
   ### Evidência 02 - Banner Principal
-  ![Evidência 02](Ciclo1-2.png)
+  ![Evidência 02](ciclo1-2.png)
 
   ---
 
