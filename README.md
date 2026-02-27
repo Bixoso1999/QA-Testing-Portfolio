@@ -19,10 +19,12 @@ Detalhamento dos Problemas:
 Falha de Validação Obrigatória: O formulário permite o envio (botão "Concluir") sem o preenchimento do campo de telefone.
 Lógica de Erro Persistente: Mensagens de erro em vermelho não desaparecem após o usuário corrigir ou apagar o conteúdo dos campos Nome/Email.
 Redirecionamento Incorreto: O link "Atendimento" abre o WhatsApp, duplicando a função do botão vizinho em vez de uma central de ajuda.
+
 2. Navegação e UX (Usabilidade)
 Comportamento Duplicado: Links como "Nossos Diferenciais", "Eventos" e "Depoimentos" abrem uma nova aba e fazem scroll na página atual simultaneamente.
 Banners Inertes: O carrossel principal não é clicável e as setas de navegação possuem visibilidade quase nula (falta de contraste).
 Ausência de Hover: Nenhum elemento interativo da página responde ao passar do mouse (hover), gerando incerteza sobre o que é clicável.
+
 3. Interface e Identidade Visual (UI)
 Inconsistência de Fontes e Case: Mistura de fontes em "Institucional" e "Biblioteca", além do uso despadronizado de UPPERCASE e Sentence case nos menus.
 Erros de Alinhamento e Grid:
