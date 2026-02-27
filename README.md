@@ -1,10 +1,10 @@
-# 🚀 Relatório de Inspeção de Qualidade (QA) - Projeto Rubeus
+#  Relatório de Inspeção de Qualidade (QA) - Projeto Rubeus
 
-Este repositório contém o levantamento detalhado de falhas de **Funcionalidade**, **Interface** e **Experiência do Usuário (UX)** identificadas nos ambientes da Faculdade Exemplo[cite: 2, 7].
+Este repositório contém o levantamento detalhado de falhas de **Funcionalidade**, **Interface** e **Experiência do Usuário (UX)** 
 
-## 🔗 Ambientes Testados
-* [cite_start]**Landing Page:** [https://qualidade.apprbs.com.br/site](https://qualidade.apprbs.com.br/site) [cite: 5]
-* [cite_start]**Certificação:** [https://qualidade.apprbs.com.br/certificacao](https://qualidade.apprbs.com.br/certificacao) [cite: 6]
+##  Ambientes Testados
+* **Landing Page:** [https://qualidade.apprbs.com.br/site](https://qualidade.apprbs.com.br/site) 
+* **Certificação:** [https://qualidade.apprbs.com.br/certificacao](https://qualidade.apprbs.com.br/certificacao) 
 
 ---
 
