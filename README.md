@@ -81,6 +81,8 @@ A aplicação apresenta uma estrutura base funcional, porém carece de polimento
 ---
 
 ###  Detalhamento dos Itens:
+### Ciclo de Teste 01 - Página de Site
+**Ambiente de Teste (URL):** https://qualidade.apprbs.com.br/site
 
 **Item 01 – Link de "Atendimento" direcionando para WhatsApp**
 * **Tipo:** Correção
@@ -142,5 +144,4 @@ A aplicação apresenta uma estrutura base funcional, porém carece de polimento
 * **Prioridade:** Média
 * **Descrição:** Nenhum elemento interativo da página (botões, ícones de redes sociais ou links de menu) apresenta mudança de estado, como alteração de cor, brilho ou preenchimento, ao sofrer a interação do cursor (hover). Essa falta de resposta visual prejudica a navegabilidade, pois o usuário não recebe confirmação imediata de que o item é clicável antes de efetuar a ação.
 
-### Ciclo de Teste 01 - Página de Site
-**Ambiente de Teste (URL):** https://qualidade.apprbs.com.br/site
+
