@@ -1,6 +1,6 @@
 # Teste de Qualidade - Projeto Rubeus
 
-## Relatório de Inspeção de Qualidade (QA) - Faculdade Exemplo
+## Relatório de Inspeção de Qualidade (QA) 
 
 ### Escopo dos Testes
 Os testes foram realizados nos seguintes ambientes:
