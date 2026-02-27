@@ -14,7 +14,7 @@ Críticos (Prioridade Alta): Falhas de validação de formulário e navegação 
 Médios (Prioridade Média): Inconsistências de UI, falta de contraste e áreas de clique desalinhadas.
 Baixos (Prioridade Baixa): Ajustes estéticos, alinhamento de grid e padronização de fontes.
 
-🛠️ Detalhamento dos Problemas
+Detalhamento dos Problemas:
 1. Funcionalidade e Validação (Bugs Críticos)
 Falha de Validação Obrigatória: O formulário permite o envio (botão "Concluir") sem o preenchimento do campo de telefone.
 Lógica de Erro Persistente: Mensagens de erro em vermelho não desaparecem após o usuário corrigir ou apagar o conteúdo dos campos Nome/Email.
@@ -34,7 +34,7 @@ Rodapé com colunas e copyright totalmente desalinhados.
 Qualidade de Imagem: Banner principal com imagem borrada, distorcida (aspect ratio incorreto) e sem preenchimento automático de tela.
 Hierarquia Visual: Seção de depoimentos sem destaque; Redes sociais com tamanho desproporcional fora do rodapé.
 
-🚀 Conclusão
+Conclusão:
 A aplicação apresenta uma estrutura base funcional, porém carece de polimento técnico na camada de front-end (CSS/Layout) e revisões de lógica no back-end para validação de dados. A correção dos itens de Prioridade Alta é recomendada antes da publicação em ambiente de produção para evitar a poluição do banco de dados com leads incompletos.
 
 Ciclo de Teste 01 - Página de Site
