@@ -82,6 +82,16 @@ Classificação: Desejabilidade
 Prioridade: Média
 Descrição: O botão de Call to Action (CTA) principal apresenta um design "vazio" (ghost button) que não atrai a atenção necessária. Ele parece "perdido" no cabeçalho por não possuir uma cor de destaque que o diferencie dos links comuns de navegação, dificultando a conversão.
 
+Evidências Visuais (Clique para expandir)
+
+<details>
+  <summary>🖼️ <b>Foto 01 - Cabeçalho e Menu (Itens 01 a 05)</b></summary>
+  <br>
+  <p align="center">
+    <img src="Ciclo1-1.png" alt="Evidência 01" width="800px">
+  </p>
+</details>
+
 Item 08 – Inconsistência de "Case" (Maiúsculas e Minúsculas) nos menus
 Tipo: Melhoria
 Classificação: Desejabilidade
