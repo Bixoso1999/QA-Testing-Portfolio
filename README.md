@@ -7,7 +7,7 @@ Os testes foram realizados nos seguintes ambientes:
 * **Landing Page Principal:** https://qualidade.apprbs.com.br/site
 * **Página de Certificação:** https://qualidade.apprbs.com.br/certificacao
 
-Este repositório contém o levantamento detalhado de falhas de **Funcionalidade (Utilidade)**, **Interface (Desejabilidade)** e **Experiência do Usuário (Usabilidade)** identificadas nos ambientes de teste da Faculdade Exemplo.
+Este repositório contém o levantamento detalhado de falhas de **Funcionalidade (Utilidade)**, **Interface (Desejabilidade)** e **Experiência do Usuário (Usabilidade)** identificadas nos ambientes de teste.
 
 ---
 
