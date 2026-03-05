@@ -540,53 +540,38 @@ Recomenda-se priorização imediata das falhas classificadas como críticas, seg
 
 ---
 
-Aqui está o seu texto formatado seguindo o padrão Markdown profissional para o GitHub, utilizando blocos de destaque, listas e formatação de código para facilitar a leitura:
-
 🚀 Estratégia e Execução de Automação
-Com base nos riscos de regressão identificados durante a análise exploratória, foi implementada uma suíte de testes automatizados utilizando Playwright (JavaScript) para validar os fluxos críticos da aplicação.
+Com base nos riscos de regressão identificados durante a análise exploratória, foi implementada uma suíte de testes automatizados utilizando Playwright (JavaScript) para validar fluxos críticos da aplicação.
 
-[!IMPORTANT]
-Diferencial da Abordagem: Diferente de uma automação de regressão tradicional, os testes foram estruturados para reproduzir e evidenciar tecnicamente os bugs identificados no sistema. Isso garante que os erros reportados possam ser reproduzidos de forma consistente e técnica.
+Diferente de uma automação de regressão tradicional, os testes foram estruturados para reproduzir e evidenciar tecnicamente os bugs identificados no sistema, garantindo que os erros reportados possam ser reproduzidos de forma consistente.
 
 🧪 Cenários Automatizados
-
 Os seguintes cenários foram automatizados para validação dos comportamentos críticos:
 
-Botão "Saiba Mais": Validação do comportamento e ausência de ação.
+Validação do comportamento do botão "Saiba Mais"
 
-Menu de Navegação: Verificação de links duplicados e comportamento das abas.
+Verificação da navegação duplicada no menu
 
-Formulário de Contato: Validação da obrigatoriedade dos campos.
+Validação da obrigatoriedade dos campos do formulário
 
-Interatividade: Confirmação da ausência de feedback visual em elementos interativos.
+Confirmação da ausência de feedback visual em elementos interativos
 
-Banner Principal: Validação do comportamento funcional do elemento de destaque.
+Validação do comportamento do banner principal
 
-Fluxo de Envio: Validação completa do fluxo de submissão de dados.
+Validação do fluxo de envio do formulário
 
 🛠️ Como Executar os Testes
-Siga os passos abaixo no seu terminal para rodar o projeto localmente:
+Clone o repositório: git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
 
-Clone o repositório:
+Acesse a pasta de automação: cd Automação
 
-Bash
-git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
-Acesse a pasta de automação:
+Instale as dependências: npm install
 
-Bash
-cd Automação
-Instale as dependências:
+Execute os testes: npx playwright test
 
-Bash
-npm install
-Execute os testes:
-
-Bash
-npx playwright test
 📊 Resultado Esperado
 Devido aos bugs críticos identificados durante os testes exploratórios, alguns cenários automatizados devem falhar.
 
-Essas falhas são esperadas e servem como evidência automatizada das inconsistências documentadas no relatório de bugs, permitindo total rastreabilidade técnica dos problemas encontrados para a equipe de desenvolvimento.
-
-Gostaria que eu te ajudasse a criar uma tabela em Markdown para o seu relatório de bugs, separando-os por Severidade e Prioridade? Isso deixaria a parte manual do seu README tão profissional quanto a automação!
 Essas falhas são esperadas e servem como evidência automatizada das inconsistências documentadas no relatório de bugs, permitindo rastreabilidade técnica dos problemas encontrados.
+
+Agora sim, está no padrão Markdown correto! Basta copiar e colar no seu arquivo README.md. Gostaria que eu fizesse o mesmo com a sua lista de 30 bugs para ficar tudo padronizado?
