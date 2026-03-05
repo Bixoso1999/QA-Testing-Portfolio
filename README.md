@@ -35,6 +35,22 @@ Os testes foram conduzidos utilizando:
 
 ---
 
+## 📊 Métricas do Teste
+
+Total de itens identificados: 53
+
+Prioridade Alta: 9  
+Prioridade Média: 24  
+Prioridade Baixa: 20  
+
+Distribuição por tipo:
+
+Correções: 18  
+Melhorias: 31  
+Novas funcionalidades: 4
+
+---
+
 # 🔁 Ciclo de Teste 01 – Landing Page Institucional
 
 ## 📊 Resumo Executivo
