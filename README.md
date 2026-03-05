@@ -546,7 +546,7 @@ Com base nos riscos de regressão identificados durante a análise exploratória
 
 Diferente de uma automação de regressão tradicional, os testes foram estruturados para reproduzir e evidenciar tecnicamente os bugs identificados no sistema, garantindo que os erros reportados possam ser reproduzidos de forma consistente.
 
-# 🧪 Cenários Automatizados
+## 🧪 Cenários Automatizados
 
 Os seguintes cenários foram automatizados para validação dos comportamentos críticos:
 
@@ -557,14 +557,14 @@ Os seguintes cenários foram automatizados para validação dos comportamentos c
 * **Validação do comportamento do banner principal**
 * **Validação do fluxo de envio do formulário**
 
-# 🛠️ Como Executar os Testes
+## 🛠️ Como Executar os Testes
 
 1. **Clone o repositório:** `git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git`
 2. **Acesse a pasta de automação:** `cd Automação`
 3. **Instale as dependências:** `npm install`
 4. **Execute os testes:** `npx playwright test`
 
-# 📊 Resultado Esperado
+## 📊 Resultado Esperado
 
 Devido aos bugs críticos identificados durante os testes exploratórios, alguns cenários automatizados devem falhar.
 
