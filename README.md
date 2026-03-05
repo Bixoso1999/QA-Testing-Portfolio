@@ -542,19 +542,45 @@ Recomenda-se priorização imediata das falhas classificadas como críticas, seg
 
 ##  🚀 Estratégia e Execução de Automação
 
+Com base nos riscos de regressão identificados durante a análise exploratória, foi implementada uma suíte de testes automatizados utilizando Playwright (JavaScript) para validar fluxos críticos da aplicação.
 
-Com base nos riscos de regressão identificados, implementei uma suíte de testes automatizados utilizando Playwright (JavaScript) para garantir a estabilidade dos fluxos críticos.
+Diferente de uma automação de regressão tradicional, os testes foram estruturados para reproduzir e evidenciar tecnicamente os bugs identificados no sistema, garantindo que os erros reportados possam ser reproduzidos de forma consistente.
 
-Nota de Validação: Diferente de uma automação de regressão comum, estes scripts foram configurados para validar e evidenciar os erros críticos existentes no fluxo. A automação confirma que o sistema falha nos pontos identificados no relatório de bugs, garantindo que essas inconsistências sejam rastreáveis e replicáveis tecnicamente.
+🧪 Cenários Automatizados
 
-🛠 Como Executar a Automação
+Os seguintes cenários foram automatizados para validação dos comportamentos críticos:
 
-Clone o repositório: git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
+Validação do comportamento do botão "Saiba Mais"
 
-Navegue até a pasta de automação: cd Automação
+Verificação da navegação duplicada no menu
 
-Instale as dependências: npm install
+Validação da obrigatoriedade dos campos do formulário
 
-Execute os testes: npx playwright test
+Confirmação da ausência de feedback visual em elementos interativos
 
-Resultado Esperado: Devido aos bugs críticos reportados, alguns testes de validação de formulário e botões devem falhar, gerando relatórios que comprovam as inconsistências listadas neste documento.
+Validação do comportamento do banner principal
+
+Validação do fluxo de envio do formulário
+
+Como Executar os Testes
+
+1️⃣ Clone o repositório
+
+git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
+
+2️⃣ Acesse a pasta de automação
+
+cd Automação
+
+3️⃣ Instale as dependências
+
+npm install
+
+4️⃣ Execute os testes
+
+npx playwright test
+Resultado Esperado
+
+Devido aos bugs críticos identificados durante os testes exploratórios, alguns cenários automatizados devem falhar.
+
+Essas falhas são esperadas e servem como evidência automatizada das inconsistências documentadas no relatório de bugs, permitindo rastreabilidade técnica dos problemas encontrados.
