@@ -95,12 +95,12 @@ As evidências visuais foram registradas para cada item classificado, contemplan
 ![Ciclo1-5](Evidencias/Ciclo1-5.png)
 </details>
 
-###  Conclusão:
+### ✅ Conclusão:
 A aplicação apresenta uma estrutura base funcional, porém carece de polimento técnico na camada de front-end (CSS/Layout) e revisões de lógica no back-end para validação de dados. A correção dos itens de **Prioridade Alta** é recomendada antes da publicação em ambiente de produção para evitar a poluição do banco de dados com leads incompletos.
 
 ---
 
-###  Detalhamento dos Itens:
+### 🔍 Detalhamento dos Itens:
 ### Ciclo de Teste 01 - Página de Site
 **Ambiente de Teste (URL):** https://qualidade.apprbs.com.br/site
 
@@ -352,7 +352,7 @@ Após a segunda rodada de testes, observou-se evolução em parte das correçõe
 
 ---
 
-##  Detalhamento dos Itens
+## 🔍 Detalhamento dos Itens
 
 **Item 1 – Botão "Saiba Mais" Inoperante**
 * **Tipo:** Correção
