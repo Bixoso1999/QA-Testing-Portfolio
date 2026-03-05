@@ -80,19 +80,19 @@ As evidências visuais foram registradas para cada item classificado, contemplan
 <summary>Clique para expandir as Evidências do Ciclo 01</summary>
 
 ### Evidência 01 
-![Ciclo1-1](Evidências/Ciclo1-1.png)
+![Ciclo1-1](Evidencias/Ciclo1-1.png)
 
 ### Evidência 02 
-![Ciclo1-2](Evidências/Ciclo1-2.png)
+![Ciclo1-2](Evidencias/Ciclo1-2.png)
 
 ### Evidência 03 
-![Ciclo1-3](Evidências/Ciclo1-3.png)
+![Ciclo1-3](Evidencias/Ciclo1-3.png)
 
 ### Evidência 04 
-![Ciclo1-4](Evidências/Ciclo1-4.png)
+![Ciclo1-4](Evidencias/Ciclo1-4.png)
 
 ### Evidência 05 
-![Ciclo1-5](Evidências/Ciclo1-5.png)
+![Ciclo1-5](Evidencias/Ciclo1-5.png)
 </details>
 
 ###  Conclusão:
@@ -331,19 +331,19 @@ As evidências foram registradas por meio de capturas de tela demonstrando os co
 <summary>Clique para expandir as Evidências do Ciclo 02</summary>
 
 ### Evidência 01
-![Ciclo2-1](Evidências/Ciclo2-1.png)
+![Ciclo2-1](Evidencias/Ciclo2-1.png)
 
 ### Evidência 02
-![Ciclo2-2](Evidências/Ciclo2-2.png)
+![Ciclo2-2](Evidencias/Ciclo2-2.png)
 
 ### Evidência 03
-![Ciclo2-3](Evidências/Ciclo2-3.png)
+![Ciclo2-3](Evidencias/Ciclo2-3.png)
 
 ### Evidência 04
-![Ciclo2-4](Evidências/Ciclo2-4.png)
+![Ciclo2-4](Evidencias/Ciclo2-4.png)
 
 ### Evidência 05
-![Ciclo2-5](Evidências/Ciclo2-5.png)
+![Ciclo2-5](Evidencias/Ciclo2-5.png)
 </details>
 
 ###  Conclusão:
