@@ -4,7 +4,7 @@
 
 ---
 
-##  Ambiente de Teste
+## 🖥 Ambiente de Teste
 
 * Navegador: Google Chrome (versão atual)
 * Resolução: 1920x1080 (Desktop)
@@ -12,7 +12,7 @@
 
 ---
 
-##  Escopo dos Testes
+## 🎯 Escopo dos Testes
 
 Os testes foram realizados nos seguintes ambientes:
 
@@ -23,7 +23,7 @@ Este relatório apresenta o levantamento detalhado de falhas funcionais, problem
 
 ---
 
-##  Metodologia de Teste
+## 🧪 Metodologia de Teste
 
 Os testes foram conduzidos utilizando:
 
@@ -35,9 +35,9 @@ Os testes foram conduzidos utilizando:
 
 ---
 
-#  Ciclo de Teste 01 – Landing Page Institucional
+# 🔁 Ciclo de Teste 01 – Landing Page Institucional
 
-##  Resumo Executivo
+## 📊 Resumo Executivo
 
 Nesta etapa, a análise concentrou-se na validação de formulários, fluxo de navegação, comportamento dos elementos interativos e consistência visual. Foram identificados pontos que impactam diretamente conversão, experiência do usuário e percepção de credibilidade institucional.
 
@@ -72,7 +72,7 @@ Nesta etapa, a análise concentrou-se na validação de formulários, fluxo de n
 
 ---
 
-##  Evidências – Ciclo 01
+## 📷 Evidências – Ciclo 01
 
 As evidências visuais foram registradas para cada item classificado, contemplando prints das falhas funcionais e inconsistências visuais identificadas.
 
@@ -285,9 +285,9 @@ A aplicação apresenta uma estrutura base funcional, porém carece de polimento
 
 ---
 
-#  Ciclo de Teste 02 – Página de Certificação
+# 🔁 Ciclo de Teste 02 – Página de Certificação
 
-##  Resumo Executivo
+## 📊 Resumo Executivo
 
 Nesta etapa, a análise focou na jornada de inscrição, validação de dados, consistência visual e presença de informações institucionais. Foram identificadas falhas que impactam conversão, acessibilidade e credibilidade jurídica da página.
 
@@ -323,7 +323,7 @@ Nesta etapa, a análise focou na jornada de inscrição, validação de dados, c
 
 ---
 
-##  Evidências – Ciclo 02
+## 📷 Evidências – Ciclo 02
 
 As evidências foram registradas por meio de capturas de tela demonstrando os comportamentos identificados e inconsistências visuais analisadas.
 
@@ -346,7 +346,7 @@ As evidências foram registradas por meio de capturas de tela demonstrando os co
 ![Ciclo2-5](Evidencias/Ciclo2-5.png)
 </details>
 
-###  Conclusão:
+### ✅ Conclusão:
 
 Após a segunda rodada de testes, observou-se evolução em parte das correções implementadas, porém ainda permanecem pontos críticos relacionados à validação de formulário e comportamento de navegação. Os itens pendentes continuam apresentando risco direto à conversão de leads e à experiência do usuário, exigindo priorização para evitar impactos funcionais e regressões futuras. Recomenda-se validação adicional após as próximas correções para garantir estabilidade e conformidade com os requisitos esperados.
 
@@ -500,7 +500,7 @@ Após a segunda rodada de testes, observou-se evolução em parte das correçõe
 
 ---
 
-##  Análise de Risco
+## 📊 Análise de Risco
 
 A aplicação apresenta riscos relevantes em:
 
@@ -516,7 +516,7 @@ A ausência de correção dos itens críticos pode gerar:
 
 ---
 
-#  Conclusão Geral
+# ✅ Conclusão Geral
 
 Os ciclos de teste evidenciaram falhas funcionais críticas, inconsistências de usabilidade e desalinhamentos visuais que impactam diretamente conversão, experiência do usuário e credibilidade institucional.
 
@@ -524,14 +524,21 @@ Recomenda-se priorização imediata das falhas classificadas como críticas, seg
 
 ---
 
-##  Estratégia Recomendada de Automação
+##  🚀 Estratégia e Execução de Automação
 
-Com base nos riscos identificados, recomenda-se automatizar:
 
-* Validação de envio do formulário
-* Persistência de mensagens de erro
-* Habilitação correta do botão "AVANÇAR"
-* Funcionamento do botão "Saiba Mais"
-* Comportamento de navegação dos links internos
+Com base nos riscos de regressão identificados, implementei uma suíte de testes automatizados utilizando Playwright (JavaScript) para garantir a estabilidade dos fluxos críticos.
 
-Esses cenários representam alto risco de regressão e impacto direto na conversão.
+Nota de Validação: Diferente de uma automação de regressão comum, estes scripts foram configurados para validar e evidenciar os erros críticos existentes no fluxo. A automação confirma que o sistema falha nos pontos identificados no relatório de bugs, garantindo que essas inconsistências sejam rastreáveis e replicáveis tecnicamente.
+
+🛠 Como Executar a Automação
+
+Clone o repositório: git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
+
+Navegue até a pasta de automação: cd Automação
+
+Instale as dependências: npm install
+
+Execute os testes: npx playwright test
+
+Resultado Esperado: Devido aos bugs críticos reportados, alguns testes de validação de formulário e botões devem falhar, gerando relatórios que comprovam as inconsistências listadas neste documento.
