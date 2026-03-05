@@ -540,38 +540,32 @@ Recomenda-se priorização imediata das falhas classificadas como críticas, seg
 
 ---
 
-🚀 Estratégia e Execução de Automação
-Com base nos riscos de regressão identificados durante a análise exploratória, foi implementada uma suíte de testes automatizados utilizando Playwright (JavaScript) para validar fluxos críticos da aplicação.
+# 🚀 Estratégia e Execução de Automação
+
+Com base nos riscos de regressão identificados durante a análise exploratória, foi implementada uma suíte de testes automatizados utilizando **Playwright (JavaScript)** para validar fluxos críticos da aplicação.
 
 Diferente de uma automação de regressão tradicional, os testes foram estruturados para reproduzir e evidenciar tecnicamente os bugs identificados no sistema, garantindo que os erros reportados possam ser reproduzidos de forma consistente.
 
-🧪 Cenários Automatizados
+# 🧪 Cenários Automatizados
+
 Os seguintes cenários foram automatizados para validação dos comportamentos críticos:
 
-Validação do comportamento do botão "Saiba Mais"
+* **Validação do comportamento do botão "Saiba Mais"**
+* **Verificação da navegação duplicada no menu**
+* **Validação da obrigatoriedade dos campos do formulário**
+* **Confirmação da ausência de feedback visual em elementos interativos**
+* **Validação do comportamento do banner principal**
+* **Validação do fluxo de envio do formulário**
 
-Verificação da navegação duplicada no menu
+# 🛠️ Como Executar os Testes
 
-Validação da obrigatoriedade dos campos do formulário
+1. **Clone o repositório:** `git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git`
+2. **Acesse a pasta de automação:** `cd Automação`
+3. **Instale as dependências:** `npm install`
+4. **Execute os testes:** `npx playwright test`
 
-Confirmação da ausência de feedback visual em elementos interativos
+# 📊 Resultado Esperado
 
-Validação do comportamento do banner principal
-
-Validação do fluxo de envio do formulário
-
-🛠️ Como Executar os Testes
-Clone o repositório: git clone https://github.com/Bixoso1999/QA-Testing-Portfolio.git
-
-Acesse a pasta de automação: cd Automação
-
-Instale as dependências: npm install
-
-Execute os testes: npx playwright test
-
-📊 Resultado Esperado
 Devido aos bugs críticos identificados durante os testes exploratórios, alguns cenários automatizados devem falhar.
 
 Essas falhas são esperadas e servem como evidência automatizada das inconsistências documentadas no relatório de bugs, permitindo rastreabilidade técnica dos problemas encontrados.
-
-Agora sim, está no padrão Markdown correto! Basta copiar e colar no seu arquivo README.md. Gostaria que eu fizesse o mesmo com a sua lista de 30 bugs para ficar tudo padronizado?
